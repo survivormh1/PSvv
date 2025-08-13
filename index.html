@@ -10,6 +10,21 @@
     <link rel='stylesheet' href='./css/index.css'>
   </head>
   <body>
+    <style>
+    @font-face {
+        font-family: 'logging';
+        src: url('fonts/LiberationMono-Regular.ttf');
+    }
+    #console {
+        font-family: 'logging';
+    }
+    body {
+        background-image: url('callam.jpg'); /* لو في مجلد img اكتب img/callam.jpg */
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    </style>
     <!-- Floating Menu -->
     <div class="floating-menu">
       <button onclick="showpayloads()" class="menu-btn" id="payloadsbtn">Payloads</button>
